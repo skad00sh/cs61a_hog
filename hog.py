@@ -152,7 +152,6 @@ def silence(score0, score1):
     """Announce nothing (see Phase 2)."""
     return silence
 
-
 def play(strategy0, strategy1, score0=0, score1=0, dice=six_sided,
          goal=GOAL_SCORE, say=silence):
     """Simulate a game and return the final scores of both players, with Player
@@ -173,6 +172,27 @@ def play(strategy0, strategy1, score0=0, score1=0, dice=six_sided,
     who = 0  # Who is about to take a turn, 0 (first) or 1 (second)
     # BEGIN PROBLEM 5
     "*** YOUR CODE HERE ***"
+
+    """WHILE? GOAL"""
+    while score0 < goal and score1 < goal:
+        if who == 0:
+            player0_num_rolls = strategy0(score0, score1)
+            score0 = score0 + take_turn(player0_num_rolls, score1, dice)
+            """ check if need to implement if score greater than goal"""
+            if score0 < goal:
+                while extra_turn(score0, score1) and score0 < goal:
+                    score0 = score0 + take_turn(player0_num_rolls, score1, dice)
+            if score0 < goal:        
+                who = other(who)
+        if who == 1:
+            player1_num_rolls = strategy1(score1, score0)
+            score1 = score1 + take_turn(player1_num_rolls, score0, dice)
+            if score1 < goal:
+                while extra_turn(score1, score0) and score1 < goal:
+                    score1 = score1 + take_turn(player1_num_rolls, score0, dice)
+            if score1 < goal:
+                who = other(who) 
+
     # END PROBLEM 5
     # (note that the indentation for the problem 6 prompt (***YOUR CODE HERE***) might be misleading)
     # BEGIN PROBLEM 6
