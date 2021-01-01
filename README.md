@@ -20,3 +20,5 @@ Note: I have neither enrolled for this course nor in the University.
  -[**Problem 4a**](https://cs61a.org/proj/hog/#problem-4a-1-pt): _Completed_ : [Commit Link](https://github.com/skad00sh/cs61a_hog/commit/d5f52aa6c94b57404468d45651c0994c225987c1)
  
  -[**Problem 4b**](https://cs61a.org/proj/hog/#problem-4b-1-pt): _Completed_ : [Commit Link](https://github.com/skad00sh/cs61a_hog/commit/c25217debec89224c82b941442c22ad33f1acd14)
+
+ -[**Problem 5**](https://cs61a.org/proj/hog/#problem-4b-1-pt) : _Incomplete_ : [Commit Link](https://github.com/skad00sh/cs61a_hog/commit/d36901d2f27f4d1d28df7b888fd866af6cb16099)  [Issue Link](https://github.com/skad00sh/cs61a_hog/issues/1)
