@@ -175,22 +175,24 @@ def play(strategy0, strategy1, score0=0, score1=0, dice=six_sided,
 
     """WHILE? GOAL"""
     while score0 < goal and score1 < goal:
-        if who == 0:
+        while who == 0:
             player0_num_rolls = strategy0(score0, score1)
             score0 = score0 + take_turn(player0_num_rolls, score1, dice)
             """ check if need to implement if score greater than goal"""
-            if score0 < goal:
-                while extra_turn(score0, score1) and score0 < goal:
-                    score0 = score0 + take_turn(player0_num_rolls, score1, dice)
-            if score0 < goal:        
+            if extra_turn(score0, score1) and score0 < goal:
+                pass
+            elif score0 >= goal:
+                break
+            else:     
                 who = other(who)
-        if who == 1:
+        while who == 1:
             player1_num_rolls = strategy1(score1, score0)
             score1 = score1 + take_turn(player1_num_rolls, score0, dice)
-            if score1 < goal:
-                while extra_turn(score1, score0) and score1 < goal:
-                    score1 = score1 + take_turn(player1_num_rolls, score0, dice)
-            if score1 < goal:
+            if extra_turn(score1, score0) and score1 < goal:
+                pass
+            elif score1 >= goal:
+                break
+            else:
                 who = other(who) 
 
     # END PROBLEM 5
