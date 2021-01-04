@@ -26,3 +26,5 @@ Note: I have neither enrolled for this course nor in the University.
  
   ## 1. [Phase-2: Commentary](https://cs61a.org/proj/hog/#phase-2-commentary)
    -[**Problem 6**](https://cs61a.org/proj/hog/#problem-6-2-pt)   : _Completed_ : [Commit Link](https://github.com/skad00sh/cs61a_hog/commit/e91ea8bf687813d80836e775e6e12467f8307ecd)
+   
+   -[**Problem 7**](https://cs61a.org/proj/hog/#problem-7-3-pt)   : _Completed_ : [Commit Link](https://github.com/skad00sh/cs61a_hog/commit/7249fafff193745b462cc18890d3a6beee609c8d)
