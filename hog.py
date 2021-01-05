@@ -377,27 +377,8 @@ def max_scoring_num_rolls(dice=six_sided, trials_count=1000):
             count = i
         if total == roll_sum and count > i:
                 count = i
-        #print(i, " ", roll_sum, " ", total, " ", count)
         i -= 1
-
     return count
-
-
-
-
-
-"""    averaged_dice = make_averaged(dice, trials_count)
-    i = 1
-    result = 0
-    num_rolls = 11
-    while i <= 10 :
-        dice_outcome = roll_dice(i, dice)
-        if dice_outcome >= averaged_dice() and dice_outcome >= result and i <= num_rolls:
-            result = dice_outcome
-            #if i < num_rolls:
-            num_rolls = i
-        i += 1
-    return num_rolls"""
     # END PROBLEM 9
 
 
