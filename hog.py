@@ -193,6 +193,7 @@ def play(strategy0, strategy1, score0=0, score1=0, dice=six_sided,
             if extra_turn(score1, score0) and score1 < goal:
                 pass
             elif score1 >= goal:
+                say = say(score0, score1)
                 break
             else:
                 who = other(who)
