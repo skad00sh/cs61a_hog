@@ -6,7 +6,32 @@ You can find the link of the project here: [CS 61A Hog](https://cs61a.org/proj/h
 
 Note: I have neither enrolled for this course nor in the University.
 
+ ## Project Status: _Completed_ 
+ ```
+ Test summary
+    671 test cases passed! No cases failed.
+ ```
+ 
+ ```
+ Point breakdown
+    Question 0: 0.0/0
+    Question 1: 2.0/2
+    Question 2: 1.0/1
+    Question 3: 2.0/2
+    Question 4a: 1.0/1
+    Question 4b: 1.0/1
+    Question 5: 3.0/3
+    Question 6: 2.0/2
+    Question 7: 3.0/3
+    Question 8: 2.0/2
+    Question 9: 2.0/2
+    Question 10: 1.0/1
+    Question 11: 2.0/2
+    Question 12: 0.0/0
 
+Score:
+    Total: 22.0
+ ```
 
  ## 1. [Phase-1: Simulator](https://cs61a.org/proj/hog/#phase-1-simulator)
  -[**Problem 0**](https://cs61a.org/proj/hog/#problem-0-0-pt)   : _Completed_ : [Commit Link](https://github.com/skad00sh/cs61a_hog/commit/3276153436cfe75e12d3d73aa306f0488ccc0c33)
@@ -35,4 +60,5 @@ Note: I have neither enrolled for this course nor in the University.
    -[**Problem 9**](https://cs61a.org/proj/hog/#problem-9-2-pt)   : _Completed_ : [Commit Link](https://github.com/skad00sh/cs61a_hog/commit/966d528001535372262359563c79632152dcfd8a)
    
    -[**Problem 10**](https://cs61a.org/proj/hog/#problem-10-1-pt)   : _Completed_ : [Commit Link](https://github.com/skad00sh/cs61a_hog/commit/ee3a82256866f94690f9a235dc1f34190d8e45eb)
+   -[**Problem 11**](https://cs61a.org/proj/hog/#problem-11-2-pt)   : _Completed_ : [Commit Link](https://github.com/skad00sh/cs61a_hog/commit/e0e8718522a2f43777788f52c7ee2a0b6c3ca417)
 
